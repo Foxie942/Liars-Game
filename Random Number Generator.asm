@@ -1,3 +1,7 @@
+.text
+.globl random_generator
+
+random_generator:
 li $v0, 30
 syscall
 
